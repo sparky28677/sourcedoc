@@ -17,5 +17,8 @@ var UserSchema = new Schema({
     last_github_sync: { type: Date },
     created_at: { type: Date, default: Date.now }
 });
+tree
+anet
+net
 
 mongoose.model('User', UserSchema);
